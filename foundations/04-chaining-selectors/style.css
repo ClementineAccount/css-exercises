@@ -1,10 +1,22 @@
-.avatar, .distorted
+.distorted, .avatar
 {
     width: 200px;
     height: 400px;
 }
 
+.proportioned, .avatar
+{
+    width:200px;
+    height:auto;
+}
+
 .distorted
+{
+    width: auto;
+    height: auto;
+}
+
+.proportioned
 {
     width: auto;
     height: auto;
